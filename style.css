@@ -58,14 +58,7 @@ body{
 .main{
 	padding-top: 10rem;
 }
-.footer{
-	background: #333;
-	padding: 4rem 0;
-	text-align: center;
-	margin-top: 6rem;
-	color: white;
-	
-}
+
 .container{
 	width: 90%;
 	max-width: 1300px;
@@ -81,8 +74,8 @@ body{
 }
 
 .derecha img{
-	width: 400px;
-	height: 420px;
+	width: 600px;
+	height: 500px;
 	border-radius: 50px;
 }
 .izquierda{
@@ -112,13 +105,11 @@ body{
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
-    outline-width: 1rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-color: black;;
     padding: 1rem 2rem;
     border-radius: 7px;
-    display: inline-block;
+
 
     align-self: center;
 }
@@ -538,6 +529,7 @@ a{
 
 
 .sponsors{
+    margin-bottom: 2rem;
     margin-top: 8rem;
     width: 100%;
     display: flex;
@@ -653,6 +645,120 @@ a{
     left: 50%;
     transition: all 3s;
 }
+
+
+
+
+.footer{
+    background: #333;
+    color: white;
+    width: 100%;
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 22px;
+}
+.colum1 p {
+    font-size: 14px;
+    color: ;
+    margin-top: 20px;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h1{
+    font-size: 22px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #c7c7c7;
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h1{
+    font-size: 22px;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 160px;
+}
+
+
+.container-footer{
+    width: 100%;
+    background: #101010;
+}
+.footer1{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright{
+    color: #c7c7c7;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.information a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+.information a:hover{
+    text-decoration: underline;
+    transition: 3s;
+}
+
+
+
+@media screen and(max-width: 1100px){
+    .container-body{
+        flex-wrap: wrap;
+    }
+
+    .colum1{
+        max-width: 100%;
+    }
+    .colum2, .colum3{
+        margin-top: 40px;
+    }
+}
+
 
 
 
